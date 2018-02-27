@@ -1,0 +1,27 @@
+.phone {
+  float: right; }
+  .phone-item {
+    float: right; }
+
+.user {
+  float: right; }
+  .user-item {
+    float: right; }
+
+.search {
+  border-radius: 50px;
+  width: 400px;
+  margin-right: 300px; }
+
+.car {
+  margin-right: 500px;
+  width: 200px; }
+
+.carrinho {
+  float: right; }
+
+#navbarDropdown {
+  color: white;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
