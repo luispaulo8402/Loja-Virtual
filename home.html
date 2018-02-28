@@ -13,19 +13,22 @@
     <title>Home Page</title>
   </head>
   <body>
-      <div class="icon-header">
-        <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
-    </div>
-    <div>
-        <p class="user-item">MINHA CONTA</p><i class="fa fa-user user" aria-hidden="true"></i>
-    </div>
-        <p class="phone-item">FALE CONOSCO</p><i class="fa fa-phone-square phone" aria-hidden="true"></i>
-        
+      <div class="row">
+      <div class="col-12"></div>
+          <div class="col-sm-3">
+                <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-9">
+                <p class="phone-item">FALE CONOSCO</p><i class="fa fa-phone-square phone" aria-hidden="true"></i>
+                <p class="user-item">MINHA CONTA</p><i class="fa fa-user user" aria-hidden="true"></i>
+          </div>
+        </div>
+
         <hr>
             <nav class="navbar navbar">
-                <div>
+                <div class="">
                 <img class="img-neo" src="img/neo.jpg" alt=""></div>
                     <div class="busca">
                         <input class="form-control search" type="search" placeholder="Buscar" aria-label="Search">
@@ -89,13 +92,28 @@
               <p class="lead">duis ac?Elementum site, magnis pellentesque vel adispiscining?Augue dolor a tristique vel eu,tortor!Risus odio, magna placerat mid porta pid cursus!ut nec hac.Portitor, in magnis?</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Fretes Grátis</h5>
-                    <i class="fa fa-truck" aria-hidden="true"></i>
-                    <p>oiaa</p>
-                </div>
-            </div>
+                <div class="row">
+                        <div class="col-12"></div>
+                          <div class="col-sm-3 mb-3">
+                              <h5 class="frete">Fretis Grátis</h5>
+                              <p class="frete-item">Frete Grátis para todo o Brasil e território</p>
+                                <i class="fa fa-truck fa-3x" aria-hidden="true"></i>                          </div>  
+                          <div class="col-sm-3">
+                                <h5 class="credit">Parcele suas contas</h5>
+                                <p class="credit-item">Parcele em até 12x sem juros suas compras no site</p>
+                                <i class="fa fa-credit-card-alt fa-3x" aria-hidden="true"></i>
+                          </div>  
+                          <div class="col-sm-3">
+                                <h5 class="rocket">Entrega Expressa</h5>
+                                <p class="rocket-item">Receba suas compras mais rápido em até 3 dias</p>
+                                <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+                          </div>  
+                          <div class="col-sm-3">
+                                <h5 class="lock">Compra Segura</h5>
+                                <p class="lock-item">Loja com ssl e sistemas de proteção das suas informações</p>
+                                <i class="fa fa-lock fa-3x" aria-hidden="true"></i>
+                          </div>  
+                    </div>
             <hr>
         <h3 class="lancamentos">Lançamentos</h3>
     <div class="row mb-5">
@@ -257,8 +275,8 @@
                                     <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
                                   <h4>Newsleter</h4>
                                   <a class="nav-link" href="#">Cadastre seu email</a>
-                                  <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
-                                  <button type="submit" class="btn btn-light">CADASTRAR</button>
+                                  <input class="form-control email" type="email" value="seu@email.com.br" id="example-email-input"><i class="fa fa-envelope icon-email" aria-hidden="true"></i>
+                                  <button type="submit" class="btn btn-light create">CADASTRAR</button>
                             </li>
                           </ul>
                 </div>
@@ -269,18 +287,17 @@
                         <p>Copyright @ - jet. Todos os direitos reservados.Rua Galileu, 1800 7 Andar, Jd.Irajá CEP 14020-620 - Ribeirão Preto - SP</p>
                     </div>  
                     <div class="col-sm-4">
-                            <i class="fa fa-cc-visa" aria-hidden="true"></i>
-                            <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                            <i class="fa fa-cc-diners-club" aria-hidden="true"></i>
-                            <i class="fa fa-barcode" aria-hidden="true"></i>
+                        <img class="img-footer" src="img/visa.png" alt="">
+                        <img class="img-footer" src="img/master.png" alt="">
+                        <img class="img-footer" src="img/diners.jpg" alt="">
+                        <img class="img-footer" src="img/boleto.png" alt="">
                     </div>  
                     <div class="col-sm-4">
-                        <img src="img/ebit.png" alt="">
-                        <img src="img/comodo.jpg" alt="">
-                        <img src="img/clear.jpg" alt="">
-                        <img src="img/blind.png" alt="">
+                        <img class="img-footer" src="img/ebit.png" alt="">
+                        <img class="img-footer" src="img/comodo.jpg" alt="">
+                        <img class="img-footer" src="img/clear.jpg" alt="">
+                        <img class="img-footer" src="img/blind.png" alt="">
                     </div>  
-
               </div>
 
     <!-- Optional JavaScript -->

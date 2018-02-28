@@ -63,4 +63,53 @@ h4 {
 .jumbo {
   margin: 25px; }
 
+.img-footer {
+  width: 70px; }
+
+.email {
+  padding-left: 40px;
+  width: 210px; }
+
+.icon-email {
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 10px; }
+
+.create {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -38px; }
+
+.frete {
+  position: absolute;
+  margin-left: 20%; }
+  .frete-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%; }
+
+.credit {
+  position: absolute;
+  margin-left: 25%; }
+  .credit-item {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 10%; }
+
+.rocket {
+  position: absolute;
+  margin-left: 20%; }
+  .rocket-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%; }
+
+.lock {
+  position: absolute;
+  margin-left: 20%; }
+  .lock-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%; }
+
 /*# sourceMappingURL=style.css.map */
