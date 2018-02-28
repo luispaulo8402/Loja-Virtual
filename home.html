@@ -13,20 +13,24 @@
     <title>Home Page</title>
   </head>
   <body>
-        <i class="fa fa-facebook-square text-primary" aria-hidden="true"></i>
+      <div class="icon-header">
+        <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
         <i class="fa fa-instagram" aria-hidden="true"></i>
         <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+    </div>
+    <div>
         <p class="user-item">MINHA CONTA</p><i class="fa fa-user user" aria-hidden="true"></i>
+    </div>
         <p class="phone-item">FALE CONOSCO</p><i class="fa fa-phone-square phone" aria-hidden="true"></i>
+        
         <hr>
             <nav class="navbar navbar">
-                <a class="navbar-brand">Neo</a>
-                <div class="">
-                  <input class="form-control search" type="search" placeholder="Buscar" aria-label="Search">
-                </div>
-                <div class="carrinho">
-                  <input class="form-control car" type="search" placeholder="carrinho" aria-label="Search">
-                </div>
+                <div>
+                <img class="img-neo" src="img/neo.jpg" alt=""></div>
+                    <div class="busca">
+                        <input class="form-control search" type="search" placeholder="Buscar" aria-label="Search">
+                        <i class="fa fa-search buscar" aria-hidden="true"></i>
+                    </div>
             </nav>
    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -79,14 +83,11 @@
           </ul>
         </div>
     </nav>
-    <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
+    <div class="jumbotron jumbotron-fluid photo">
+            <div class="container cont">
+              <h5 class="display-4">2000px X 450px</h5>
+              <p class="lead">duis ac?Elementum site, magnis pellentesque vel adispiscining?Augue dolor a tristique vel eu,tortor!Risus odio, magna placerat mid porta pid cursus!ut nec hac.Portitor, in magnis?</p>
+            </div>
           </div>
           <div class="card" style="width: 18rem;">
                 <div class="card-body">
@@ -96,112 +97,146 @@
                 </div>
             </div>
             <hr>
-        <h1>Lançamentos</h1>
+        <h3 class="lancamentos">Lançamentos</h3>
     <div class="row mb-5">
         <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
+                <img class="card-img-top img" src="" alt="">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h6 class="card-title">Nome do Produto 1</h6>
+                <p class="card-text">De R$ 250,00 por R$198,00 ou 5x de R$ 139,00</p>
             </div>
         </div>
     <div class="card" style="width: 18rem;">
-            <img class="card-img-top img" src="" alt="image">
+            <img class="card-img-top img" src="" alt="">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cores
+                  </button>
+                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tamanho
+                      </button>
+                      <a href="#" class="btn btn-success">Comprar</a>
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Comprar</a>
+                <h6 class="card-title">Nome do Produto 2</h6>
+            <p class="card-text">R$ 198,00 ou 5x de R$ 139,00</p>
+            <a href="#" class="btn btn-light">Detalhes</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-            <img class="card-img-top img" src="" alt="image">
+            <img class="card-img-top img" src="" alt="">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h6 class="card-title">Nome do Produto 3</h6>
+            <p class="card-text">De R$ 250,00 por R$ 198,00 ou em 5x de R$ 139,60</p>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-            <img class="card-img-top img" src="" alt="image">
+            <img class="card-img-top img" src="" alt="">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h6 class="card-title">Nome do Produto 4</h6>
+            <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
         </div>
     </div>
     </div>
     <hr>
-    <h5>nome</h5>
         <div class="row mb-5">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
+                <img class="card-img-top img" src="" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h6 class="card-title">Nome do Produto 1</h6>
+                        <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
+                    </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img" src="" alt="">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cores
+                          </button>
+                          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tamanho
+                              </button>
+                              <a href="#" class="btn btn-success">Comprar</a>
+                <div class="card-body">
+                        <h6 class="card-title">Nome do Produto 2</h6>
+                    <p class="card-text">R$ 198,00 ou 5x de R$ 139,00</p>
+                    <a href="#" class="btn btn-light">Detalhes</a>
                 </div>
             </div>
         <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
+                <img class="card-img-top img" src="" alt="">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">Comprar</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h6 class="card-title">Nome do Produto 3</h6>
+                <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
             </div>
         </div>
          <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
+                <img class="card-img-top img" src="" alt="">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+                    <h6 class="card-title">Nome do Produto 4</h6>
+                    <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
+                </div>
         </div>
         </div>
-            <h1>Mais vendidos</h1>
         <div class="row mb-5">
             <div class="card" style="width: 18rem;">
-                    <img class="card-img-top img" src="" alt="image">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img class="card-img-top img" src="" alt="">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top img" src="" alt="Banner a partir de R$ 199,00">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top img" src="" alt="">
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top img" src="" alt="">
+            </div>
+        </div>
+            <h3 class="vendidos">Mais vendidos</h3>
+            <div class="row mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img" src="" alt="">
+                        <div class="card-body">
+                                <h6 class="card-title">Nome do Produto 1</h6>
+                                <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
+                            </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img" src="" alt="">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Cores
+                                  </button>
+                                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Tamanho
+                                      </button>
+                                      <a href="#" class="btn btn-success">Comprar</a>
+                        <div class="card-body">
+                                <h6 class="card-title">Nome do Produto 2</h6>
+                            <p class="card-text">R$ 198,00 ou 5x de R$ 139,00</p>
+                            <a href="#" class="btn btn-light">Detalhes</a>
+                        </div>
+                    </div>
+                <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img" src="" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title">Nome do Produto 3</h6>
+                        <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
+                    </div>
                 </div>
-            </div>
-        <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">Comprar</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-                <img class="card-img-top img" src="" alt="image">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid">
+                 <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img" src="" alt="">
+                    <div class="card-body">
+                            <h6 class="card-title">Nome do Produto 4</h6>
+                            <p class="card-text">De R$ 250,00 por R$ 198,00 ou 5x de R$ 139,60</p>
+                        </div>
+                </div>
+                </div>
+        <div class="jumbotron jumbotron-fluid bg-dark">
             <div class="container">
                     <ul class="nav">
-                            <li class="nav-item">
+                            <li class="nav-item jumbo">
                                 <h4>Instituicional</h4>
                               <a class="nav-link active" href="#">Quem somos</a>
                               <a href="" class="nav-link">Politicia</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item jumbo">
                               <h4>Duvidas</h4>
                               <a class="nav-link" href="#">Este site é seguro?</a>
                               <a class="nav-link" href="#">Pagamento</a>
@@ -210,21 +245,42 @@
                               <a class="nav-link" href="#">Dúvidas Frequenmtes</a>
 
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item jumbo">
                                 <h4>Central</h4>
                               <a class="nav-link" href="#">Preparado para esclarecer</a>
-                              <h2>Sac</h2>
+                              <h4>Sac:11 12345678</h4>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item jumbo">
                                     <h4>Siga nos</h4>
-                                  <a class="nav-link" href="#">Preparado para esclarecer</a>
-                                  <h2>Newsleter</h2>
-                                  <p>Cadastre seu email</p>
+                                    <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+                                  <h4>Newsleter</h4>
+                                  <a class="nav-link" href="#">Cadastre seu email</a>
                                   <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
-                                  <button type="submit" class="btn btn-primary">Submit</button>
-                                </li>
+                                  <button type="submit" class="btn btn-light">CADASTRAR</button>
+                            </li>
                           </ul>
                 </div>
+              </div>
+              <div class="row">
+                  <div class="col-12"></div>
+                    <div class="col-sm-4 mb-3">
+                        <p>Copyright @ - jet. Todos os direitos reservados.Rua Galileu, 1800 7 Andar, Jd.Irajá CEP 14020-620 - Ribeirão Preto - SP</p>
+                    </div>  
+                    <div class="col-sm-4">
+                            <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                            <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                            <i class="fa fa-cc-diners-club" aria-hidden="true"></i>
+                            <i class="fa fa-barcode" aria-hidden="true"></i>
+                    </div>  
+                    <div class="col-sm-4">
+                        <img src="img/ebit.png" alt="">
+                        <img src="img/comodo.jpg" alt="">
+                        <img src="img/clear.jpg" alt="">
+                        <img src="img/blind.png" alt="">
+                    </div>  
+
               </div>
 
     <!-- Optional JavaScript -->

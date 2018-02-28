@@ -15,23 +15,58 @@
         width: 400px;
         margin-right:300px;
     }
+    .buscar{
+        float: right;
+        margin-top: -25px;
+        margin-right: 45%;
+    }
 .car{
     margin-right: 500px;
     width: 200px;
 }
-.carrinho{
-    float: right;
-}
+
 #navbarDropdown{
     color: white;
     text-align: center;
 }
-.card{
-   // background-color: grey;
+.photo{
+    width: 2000px;
+    height: 450px;
 }
-
+.cont{
+    text-align: center;
+    margin-left: 0;
+}
 .img{
     width: 280px;
     height: 300px;
     background-color: grey;
+}
+
+.img-neo{
+    width: 200px;
+}
+
+.lancamentos{
+    text-align: center;
+}
+.vendidos{
+    text-align: center;
+}
+.icon-header{
+    padding-top: 10px;
+    &{
+        margin-left: 15%;
+        padding-top: 10px;
+    }
+}
+.nav-link{
+    color: gray;
+}
+h4{
+    color: white;
+}
+
+.jumbo{
+    margin: 25px;
 }
