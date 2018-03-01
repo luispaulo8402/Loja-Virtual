@@ -15,15 +15,19 @@
         border-radius: 50px;
         width: 400px;
         margin-right:300px;
-    }
-    .buscar{
-        float: right;
-        margin-top: -25px;
-        margin-right: 45%;
+        &-item{
+            float: right;
+            margin-top: -25px;
+            margin-right: 45%;
+        }
     }
 .car{
     margin-right: 500px;
     width: 200px;
+    &-item{
+        position: absolute;
+        margin-top: -25px;
+    }
 }
 
 #navbarDropdown{
@@ -126,3 +130,13 @@ h4{
     }
 }
 
+.star{
+    color: yellow;
+    &-item{
+      //  width: 80px;
+    }
+}
+
+.adquirir{
+    //position: relative;
+}

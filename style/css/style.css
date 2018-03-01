@@ -12,15 +12,17 @@
   border-radius: 50px;
   width: 400px;
   margin-right: 300px; }
-
-.buscar {
-  float: right;
-  margin-top: -25px;
-  margin-right: 45%; }
+  .search-item {
+    float: right;
+    margin-top: -25px;
+    margin-right: 45%; }
 
 .car {
   margin-right: 500px;
   width: 200px; }
+  .car-item {
+    position: absolute;
+    margin-top: -25px; }
 
 #navbarDropdown {
   color: white;
@@ -111,5 +113,8 @@ h4 {
     position: absolute;
     margin-left: 20%;
     margin-top: 10%; }
+
+.star {
+  color: yellow; }
 
 /*# sourceMappingURL=style.css.map */
