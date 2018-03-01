@@ -117,4 +117,9 @@ h4 {
 .star {
   color: yellow; }
 
+.detail {
+  width: 565px;
+  height: 630px;
+  background-color: grey; }
+
 /*# sourceMappingURL=style.css.map */
