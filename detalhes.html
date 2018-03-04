@@ -13,19 +13,20 @@
     <title>Detalhes</title>
   </head>
   <body>
-      <div class="row">
-      <div class="col-12"></div>
-          <div class="col-sm-3">
-                <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
-          </div>
-          <div class="col-sm-9">
-                <p class="phone-item">FALE CONOSCO</p><i class="fa fa-phone-square phone" aria-hidden="true"></i>
-                <p class="user-item">MINHA CONTA</p><i class="fa fa-user user" aria-hidden="true"></i>
-          </div>
-    </div>
-        <hr>
+        <div class="container">
+                <div class="row">
+                  <div class="col icon">
+                        <i class="fa fa-facebook-square icon-face text-primary" aria-hidden="true"></i>
+                        <i class="fa fa-instagram icon-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+                  </div>
+                  <div class="col">
+                        <p class="user">MINHA CONTA</p><i class="fa fa-user user-item" aria-hidden="true"></i>
+                        <p class="phone"> FALE CONOSCO</p><i class="fa fa-phone-square phone-item" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+        <hr class="line">
         <div class="row">
             <div class="col-12"></div>
             <div class="col-sm-4">
@@ -40,52 +41,52 @@
                         <i class="fa fa-shopping-cart car-item" aria-hidden="true"></i>
                 </div>
             </div>
-   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-cat">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link dropdown-toggle" href="categoria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 1
+                CATEGORIA 1
                 </a>  
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 2
+                CATEGORIA 2
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 3
+                CATEGORIA 3
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 4
+                CATEGORIA 4
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 5
+                CATEGORIA 5
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 6
+                CATEGORIA 6
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 7
+                CATEGORIA 7
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 8
+                CATEGORIA 8
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 9
+                CATEGORIA 9
                 </a>
             </li>
           </ul>
@@ -381,25 +382,28 @@
                           </ul>
                 </div>
               </div>
-              <div class="row">
-                  <div class="col-12"></div>
-                    <div class="col-sm-4 mb-3">
-                        <p>Copyright @ - jet. Todos os direitos reservados.Rua Galileu, 1800 7 Andar, Jd.Irajá CEP 14020-620 - Ribeirão Preto - SP</p>
-                    </div>  
-                    <div class="col-sm-4">
-                        <img class="img-footer" src="img/visa.png" alt="">
-                        <img class="img-footer" src="img/master.png" alt="">
-                        <img class="img-footer" src="img/diners.jpg" alt="">
-                        <img class="img-footer" src="img/boleto.png" alt="">
-                    </div>  
-                    <div class="col-sm-4">
-                        <img class="img-footer" src="img/ebit.png" alt="">
-                        <img class="img-footer" src="img/comodo.jpg" alt="">
-                        <img class="img-footer" src="img/clear.jpg" alt="">
-                        <img class="img-footer" src="img/blind.png" alt="">
-                    </div>  
-              </div>
-
+              <div class="container">
+                    <div class="row">
+                        <div class="col-12"></div>
+                          <div class="col-sm-4 mb-3">
+                              <p class="copy">Copyright @ - jet. Todos os direitos reservados.
+                                  <p class="copy-item">Rua Galileu, 1800 7 Andar, Jd.Irajá
+                                      <p class="copy-item--cep">CEP 14020-620 - Ribeirão Preto - SP</p>
+                          </div>  
+                          <div class="col-sm-4 payment">
+                              <img class="payment-item" src="img/visa.png" alt="">
+                              <img class="payment-item" src="img/master.png" alt="">
+                              <img class="payment-item" src="img/diners.jpg" alt="">
+                              <img class="payment-item" src="img/boleto.png" alt="">
+                          </div>  
+                          <div class="col-sm-4">
+                              <img class="img-payment" src="img/ebit.png" alt="">
+                              <img class="img-payment" src="img/comodo.jpg" alt="">
+                              <img class="img-payment" src="img/clear.jpg" alt="">
+                              <img class="img-payment" src="img/blind.png" alt="">
+                          </div>  
+                    </div>
+                  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>

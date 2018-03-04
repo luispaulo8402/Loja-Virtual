@@ -1,21 +1,160 @@
-.phone {
-  float: right; }
-  .phone-item {
-    float: right; }
+.icon {
+  margin: 10px; }
+  .icon-face {
+    margin-left: 10%; }
+  .icon-instagram {
+    padding-left: 5px;
+    padding-right: 5px; }
 
 .user {
-  float: right; }
+  margin-top: 10px;
+  float: right;
+  padding-left: 10px;
+  color: gray; }
   .user-item {
-    float: right; }
+    margin-top: 10px;
+    float: right;
+    padding-top: 4px; }
+
+.phone {
+  margin-top: 10px;
+  float: right;
+  padding-left: 10px;
+  margin-right: 25%;
+  color: gray; }
+  .phone-item {
+    margin-top: 10px;
+    float: right;
+    padding-top: 4px; }
+
+.line {
+  margin-top: -10px; }
+
+.img-neo {
+  width: 200px;
+  margin-left: 34%;
+  margin-top: -15px; }
 
 .search {
   border-radius: 50px;
   width: 400px;
-  margin-right: 300px; }
+  margin-right: 300px;
+  margin-top: 25px;
+  padding-left: 25px; }
   .search-item {
     float: right;
-    margin-top: -25px;
-    margin-right: 45%; }
+    margin-top: -27px;
+    margin-right: 5%; }
+
+#navbarDropdown {
+  color: white;
+  font-size: 12px; }
+
+.nav-cat {
+  margin-top: -25px; }
+
+.frete {
+  position: absolute;
+  margin-left: 20%;
+  font-size: 12pt;
+  line-height: 2; }
+  .frete-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 10pt;
+    line-height: 1.2; }
+    .frete-item--truck {
+      margin-left: 10px;
+      padding-top: 10px; }
+
+.purchase {
+  margin-top: -20px; }
+
+.credit {
+  position: absolute;
+  margin-left: 20%;
+  font-size: 12pt;
+  line-height: 2; }
+  .credit-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 10pt;
+    line-height: 1.2; }
+    .credit-item--card {
+      margin-left: 5px;
+      padding-top: 10px; }
+
+.rocket {
+  position: absolute;
+  margin-left: 20%;
+  font-size: 12pt;
+  line-height: 2; }
+  .rocket-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 10pt;
+    line-height: 1.2; }
+    .rocket-item--plane {
+      margin-left: 10px;
+      padding-top: 10px; }
+
+.lock {
+  position: absolute;
+  margin-left: 20%;
+  font-size: 12pt;
+  line-height: 2; }
+  .lock-item {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 10pt;
+    line-height: 1.2; }
+    .lock-item--segurity {
+      margin-left: 20px;
+      padding-top: 10px; }
+
+.line-purchase {
+  margin-top: 20px; }
+
+.copy {
+  font-size: 10pt;
+  color: gray; }
+  .copy-item {
+    line-height: 1;
+    font-size: 10pt;
+    color: gray; }
+    .copy-item--cep {
+      margin-top: -15px;
+      font-size: 10pt;
+      color: gray; }
+
+.payment {
+  padding: 20px; }
+  .payment-item {
+    width: 40px;
+    margin-right: 15px; }
+
+.img-payment {
+  width: 80px; }
+
+.jumbo-rod {
+  height: 220px; }
+
+.jumbo {
+  margin: 25px;
+  margin-top: -40px;
+  line-height: 0.5; }
+
+.nav-link {
+  color: gray;
+  font-size: 10pt; }
+
+h4 {
+  color: white;
+  font-size: 10pt; }
 
 .car {
   margin-right: 500px;
@@ -23,10 +162,6 @@
   .car-item {
     position: absolute;
     margin-top: -25px; }
-
-#navbarDropdown {
-  color: white;
-  text-align: center; }
 
 .photo {
   width: 2000px;
@@ -41,9 +176,6 @@
   height: 300px;
   background-color: grey; }
 
-.img-neo {
-  width: 200px; }
-
 .lancamentos {
   text-align: center; }
 
@@ -55,18 +187,6 @@
   .icon-header {
     margin-left: 15%;
     padding-top: 10px; }
-
-.nav-link {
-  color: gray; }
-
-h4 {
-  color: white; }
-
-.jumbo {
-  margin: 25px; }
-
-.img-footer {
-  width: 70px; }
 
 .email {
   padding-left: 40px;
@@ -81,38 +201,6 @@ h4 {
   position: absolute;
   margin-left: 220px;
   margin-top: -38px; }
-
-.frete {
-  position: absolute;
-  margin-left: 20%; }
-  .frete-item {
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 10%; }
-
-.credit {
-  position: absolute;
-  margin-left: 25%; }
-  .credit-item {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: 10%; }
-
-.rocket {
-  position: absolute;
-  margin-left: 20%; }
-  .rocket-item {
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 10%; }
-
-.lock {
-  position: absolute;
-  margin-left: 20%; }
-  .lock-item {
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 10%; }
 
 .star {
   color: yellow; }

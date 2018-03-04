@@ -10,22 +10,23 @@
     <link rel="stylesheet" href="style/css/style.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
-    <title>Home Page</title>
+    <title>Home</title>
   </head>
   <body>
-      <div class="row">
-      <div class="col-12"></div>
-          <div class="col-sm-3">
-                <i class="fa fa-facebook-square face text-primary" aria-hidden="true"></i>
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
-          </div>
-          <div class="col-sm-9">
-                <p class="phone-item">FALE CONOSCO</p><i class="fa fa-phone-square phone" aria-hidden="true"></i>
-                <p class="user-item">MINHA CONTA</p><i class="fa fa-user user" aria-hidden="true"></i>
-          </div>
-    </div>
-        <hr>
+        <div class="container">
+                <div class="row">
+                  <div class="col icon">
+                        <i class="fa fa-facebook-square icon-face text-primary" aria-hidden="true"></i>
+                        <i class="fa fa-instagram icon-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+                  </div>
+                  <div class="col">
+                        <p class="user">MINHA CONTA</p><i class="fa fa-user user-item" aria-hidden="true"></i>
+                        <p class="phone"> FALE CONOSCO</p><i class="fa fa-phone-square phone-item" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+        <hr class="line">
         <div class="row">
             <div class="col-12"></div>
             <div class="col-sm-4">
@@ -40,52 +41,52 @@
                         <i class="fa fa-shopping-cart car-item" aria-hidden="true"></i>
                 </div>
             </div>
-   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-cat">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link dropdown-toggle" href="categoria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 1
+                CATEGORIA 1
                 </a>  
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 2
+                CATEGORIA 2
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 3
+                CATEGORIA 3
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 4
+                CATEGORIA 4
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 5
+                CATEGORIA 5
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 6
+                CATEGORIA 6
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 7
+                CATEGORIA 7
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 8
+                CATEGORIA 8
                 </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categoria 9
+                CATEGORIA 9
                 </a>
             </li>
           </ul>
@@ -97,30 +98,34 @@
               <p class="lead">duis ac?Elementum site, magnis pellentesque vel adispiscining?Augue dolor a tristique vel eu,tortor!Risus odio, magna placerat mid porta pid cursus!ut nec hac.Portitor, in magnis?</p>
             </div>
           </div>
+          <div class="container">
                 <div class="row">
                         <div class="col-12"></div>
-                          <div class="col-sm-3 mb-3">
-                              <h5 class="frete">Fretis Grátis</h5>
+                          <div class="col-sm-3 mb-3 purchase">
+                              <h5 class="frete">Frete Grátis</h5>
                               <p class="frete-item">Frete Grátis para todo o Brasil e território</p>
-                                <i class="fa fa-truck fa-3x" aria-hidden="true"></i>                          </div>  
-                          <div class="col-sm-3">
-                                <h5 class="credit">Parcele suas contas</h5>
+                              <i class="fa fa-truck fa-2x frete-item--truck" aria-hidden="true"></i>                          
+                           </div>  
+                          <div class="col-sm-3 mb-3 purchase">
+                                <h5 class="credit ">Parcele suas contas</h5>
                                 <p class="credit-item">Parcele em até 12x sem juros suas compras no site</p>
-                                <i class="fa fa-credit-card-alt fa-3x" aria-hidden="true"></i>
+                                <i class="fa fa-credit-card-alt fa-2x credit-item--card" aria-hidden="true"></i>
                           </div>  
-                          <div class="col-sm-3">
+                          <div class="col-sm-3 mb-3 purchase">
                                 <h5 class="rocket">Entrega Expressa</h5>
                                 <p class="rocket-item">Receba suas compras mais rápido em até 3 dias</p>
-                                <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+                                <i class="fa fa-rocket fa-2x rocket-item--plane" aria-hidden="true"></i>
                           </div>  
-                          <div class="col-sm-3">
+                          <div class="col-sm-3 mb-3 purchase">
                                 <h5 class="lock">Compra Segura</h5>
                                 <p class="lock-item">Loja com ssl e sistemas de proteção das suas informações</p>
-                                <i class="fa fa-lock fa-3x" aria-hidden="true"></i>
+                                <i class="fa fa-lock fa-2x lock-item--segurity" aria-hidden="true"></i>
                           </div>  
                     </div>
-            <hr>
+                </div>
+            <hr class="line-purchase">
         <h3 class="lancamentos">Lançamentos</h3>
+        <div class="container-fluid">
     <div class="row mb-5">
         <div class="card" style="width: 18rem;">
                 <img class="card-img-top img" src="" alt="">
@@ -203,6 +208,7 @@
         </div>
     </div>
     </div>
+</div>
     <hr>
         <div class="row mb-5">
             <div class="card" style="width: 18rem;">
@@ -380,7 +386,7 @@
                         </div>
                 </div>
                 </div>
-        <div class="jumbotron jumbotron-fluid bg-dark">
+        <div class="jumbotron jumbotron-fluid bg-dark jumbo-rod">
             <div class="container">
                     <ul class="nav">
                             <li class="nav-item jumbo">
@@ -398,8 +404,8 @@
 
                             </li>
                             <li class="nav-item jumbo">
-                                <h4>Central</h4>
-                              <a class="nav-link" href="#">Preparado para esclarecer</a>
+                                <h4>Central de relacionamento</h4>
+                              <a class="nav-link" href="#">Preparado para esclarecer suas dúvidas e problemas</a>
                               <h4>Sac:11 12345678</h4>
                             </li>
                             <li class="nav-item jumbo">
@@ -408,31 +414,35 @@
                                     <i class="fa fa-instagram" aria-hidden="true"></i>
                                     <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
                                   <h4>Newsleter</h4>
-                                  <a class="nav-link" href="#">Cadastre seu email</a>
+                                  <a class="nav-link" href="#">Cadastre seu email e receba</a>
                                   <input class="form-control email" type="email" value="seu@email.com.br" id="example-email-input"><i class="fa fa-envelope icon-email" aria-hidden="true"></i>
                                   <button type="submit" class="btn btn-light create">CADASTRAR</button>
                             </li>
                           </ul>
                 </div>
               </div>
+              <div class="container">
               <div class="row">
                   <div class="col-12"></div>
                     <div class="col-sm-4 mb-3">
-                        <p>Copyright @ - jet. Todos os direitos reservados.Rua Galileu, 1800 7 Andar, Jd.Irajá CEP 14020-620 - Ribeirão Preto - SP</p>
+                        <p class="copy">Copyright @ - jet. Todos os direitos reservados.
+                            <p class="copy-item">Rua Galileu, 1800 7 Andar, Jd.Irajá
+                                <p class="copy-item--cep">CEP 14020-620 - Ribeirão Preto - SP</p>
+                    </div>  
+                    <div class="col-sm-4 payment">
+                        <img class="payment-item" src="img/visa.png" alt="">
+                        <img class="payment-item" src="img/master.png" alt="">
+                        <img class="payment-item" src="img/diners.jpg" alt="">
+                        <img class="payment-item" src="img/boleto.png" alt="">
                     </div>  
                     <div class="col-sm-4">
-                        <img class="img-footer" src="img/visa.png" alt="">
-                        <img class="img-footer" src="img/master.png" alt="">
-                        <img class="img-footer" src="img/diners.jpg" alt="">
-                        <img class="img-footer" src="img/boleto.png" alt="">
-                    </div>  
-                    <div class="col-sm-4">
-                        <img class="img-footer" src="img/ebit.png" alt="">
-                        <img class="img-footer" src="img/comodo.jpg" alt="">
-                        <img class="img-footer" src="img/clear.jpg" alt="">
-                        <img class="img-footer" src="img/blind.png" alt="">
+                        <img class="img-payment" src="img/ebit.png" alt="">
+                        <img class="img-payment" src="img/comodo.jpg" alt="">
+                        <img class="img-payment" src="img/clear.jpg" alt="">
+                        <img class="img-payment" src="img/blind.png" alt="">
                     </div>  
               </div>
+            </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
