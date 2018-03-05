@@ -10,9 +10,10 @@ $size-p: 10pt;
 
 // sass home
 .icon{
-    margin: 10px;
+    margin: 5px;
     &-face{
         margin-left: 10%;
+        color: darkblue;
     }
     &-instagram{
         padding-left: 5px;
@@ -24,10 +25,11 @@ $size-p: 10pt;
     float: right;
     padding-left: 10px;
     color: $color;
+    font-size: $size-p;
     &-item{
         margin-top: $icon-top;
         float: right;
-        padding-top: $icon-header;
+       // padding-top: $icon-header;
     }
 }
 .phone{
@@ -36,8 +38,10 @@ $size-p: 10pt;
     padding-left: 10px;
     margin-right: 25%;
     color: $color;
+    font-size: $size-p;
+
     &-item{
-        margin-top: $icon-top;
+        margin-top: 8px;
         float: right;
         padding-top: $icon-header;
     }
@@ -67,6 +71,25 @@ $size-p: 10pt;
     color: $color-b;
     font-size: 12px;
 }
+#navbarDropdown-one{
+    color: $color-b;
+    font-size: 12px;
+    margin-left: 140px;
+}
+#dropdownMenu2{
+    border-bottom-color: silver;
+    border-top-color: silver;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.page-link{
+    color: black;
+}
+.link-number{
+    background: black;
+    color: $color-b;
+}
+
 .nav-cat{
     margin-top: -25px;
 }
@@ -81,6 +104,7 @@ $size-p: 10pt;
         margin-top: $mt-p;
         font-size: $size-p;
         line-height: 1.2;
+        color: $color;
         &--truck{
             margin-left: 10px;
             padding-top: 10px;
@@ -101,6 +125,7 @@ $size-p: 10pt;
         margin-top: $mt-p;
         font-size: $size-p;
         line-height: 1.2;
+        color: $color;
         &--card{
             margin-left: 5px;
             padding-top: 10px;
@@ -118,6 +143,7 @@ $size-p: 10pt;
         margin-top: $mt-p;
         font-size: $size-p;
         line-height: 1.2;
+        color: $color;
         &--plane{
             margin-left: 10px;
             padding-top: 10px;
@@ -135,6 +161,7 @@ $size-p: 10pt;
         margin-top: $mt-p;
         font-size: $size-p;
         line-height: 1.2;
+        color: $color;
         &--segurity{
             margin-left: 20px;
             padding-top: 10px;
@@ -188,43 +215,186 @@ h4{
 .card{
     width: 250px;
     margin: 10px;
+    margin-left: 22px;
     &-img{
         width: 250px;
         height: 300px;
         background-color: gainsboro;
+        &--detail{
+            width: 565px;
+            height: 630px;
+            background-color: gainsboro;
+        }
     }
 }
-.span{
-    color: yellow;
-}
+
 .card-title{
     font-size: $size-p;
     text-align: center;
 }
 .text{
     &-item{
-        color: blue;
+        color: deepskyblue;
         font-size: $size;
+        position: absolute;
+        margin-left:45%;
+        margin-top: -35px;
     }
 }
 .card-text{
-    font-size: $size;
+    font-size: $size-p;
+    color: $color;
+    &--item{
+        text-align: center;
+        font-size: $size-p;
+        color: $color;
+    }
 }
-.detail{
-    width: 565px;
-    height: 630px;
-    background-color: gainsboro;
+.btn-detail{
+    background: gainsboro;
+    color: gray;    
 }
+.icon-detail{
+    padding-right: 10px;
+}
+.comprar{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 25%;
+    width: 90%;
+    &-item{
+        background: black;
+        &--cor{
+            width: 100%;
+        }
+        &--tamanho{
+            width: 100%;
+        }
+        &--compra{
+            width: 100%;
+        }
+    }
+}
+// detail
+h4{
+
+}
+.number{
+    color: $color;
+    font-size: $size-p;
+}
+.information{
+    margin-left: 35%;
+}
+.rating{
+    float: right;
+    color: yellow;
+    &-item{
+     color: silver;
+    }
+}
+.card-cor{
+    width: 350px;
+}
+.square-two{
+    color: $color;    
+}
+.square-three{
+    color: silver;
+
+}
+.add{
+    margin-bottom: 15%;
+}
+.card-frete{
+    width: 350px;
+    &-item{
+        font-size: 12pt;
+    }
+}
+
 .car{
     margin-right: 500px;
-    width: 200px;
+    width: 110px;
     &-item{
         position: absolute;
         margin-top: -25px;
     }
 }
+.card-parcela{
+    width: 350px;
+    &--item{
+        margin-left: 5%;
 
-
+    }
+}
+.play{
+    position: absolute;
+}
+.name{
+    margin-left: 40%;
+}
+.colors{
+    color: black;
+    &-silver{
+        color: silver;
+        }
+    }
+    .colors{
+        &-aqua{
+            color: aqua;
+        }
+    }
+    .colors{
+        &-gray{
+            color: gray;
+        }
+    }
+    .colors{
+        &-pink{
+            color: deeppink;
+        }
+    }
+    .colors{
+        &-red{
+            color: red;
+        }
+    }
+    .colors{
+        &-blue{
+            color: royalblue;
+        }
+    }
+    .colors{
+        &-dark{
+            color: darkblue;
+        }
+    }
+    .colors{
+        &-yellow{
+            color: yellow;
+        }
+    }
+    .colors{
+        &-orange{
+            color: orangered;
+        }
+    }
+    .colors{
+        &-white{
+            color: white;
+        }
+    }
+.btn-tamanho{
+    border-bottom-color: silver;
+    border-top-color: silver;
+    margin-top: 25px;
+}
+.btn-preco{
+    border-bottom-color: silver;
+    border-top-color: silver;
+    margin-top: 25px;
+}
 .photo{
     width: 2000px;
     height: 450px;
@@ -233,11 +403,12 @@ h4{
     text-align: center;
     margin-left: 0;
 }
-
-
-
+.lanc{
+    margin-bottom: 25px;
+}
 .lancamentos{
     text-align: center;
+    font-size: $size;
 }
 .vendidos{
     text-align: center;
@@ -249,7 +420,9 @@ h4{
         padding-top: 10px;
     }
 }
-
+.card-cat{
+    margin-bottom: 35px;
+}
 
 .email{
     padding-left: 40px;

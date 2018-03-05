@@ -1,7 +1,8 @@
 .icon {
-  margin: 10px; }
+  margin: 5px; }
   .icon-face {
-    margin-left: 10%; }
+    margin-left: 10%;
+    color: darkblue; }
   .icon-instagram {
     padding-left: 5px;
     padding-right: 5px; }
@@ -10,20 +11,21 @@
   margin-top: 10px;
   float: right;
   padding-left: 10px;
-  color: gray; }
+  color: gray;
+  font-size: 10pt; }
   .user-item {
     margin-top: 10px;
-    float: right;
-    padding-top: 4px; }
+    float: right; }
 
 .phone {
   margin-top: 10px;
   float: right;
   padding-left: 10px;
   margin-right: 25%;
-  color: gray; }
+  color: gray;
+  font-size: 10pt; }
   .phone-item {
-    margin-top: 10px;
+    margin-top: 8px;
     float: right;
     padding-top: 4px; }
 
@@ -50,6 +52,24 @@
   color: white;
   font-size: 12px; }
 
+#navbarDropdown-one {
+  color: white;
+  font-size: 12px;
+  margin-left: 140px; }
+
+#dropdownMenu2 {
+  border-bottom-color: silver;
+  border-top-color: silver;
+  width: 80%;
+  margin-bottom: 20px; }
+
+.page-link {
+  color: black; }
+
+.link-number {
+  background: black;
+  color: white; }
+
 .nav-cat {
   margin-top: -25px; }
 
@@ -63,7 +83,8 @@
     margin-left: 20%;
     margin-top: 10%;
     font-size: 10pt;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: gray; }
     .frete-item--truck {
       margin-left: 10px;
       padding-top: 10px; }
@@ -81,7 +102,8 @@
     margin-left: 20%;
     margin-top: 10%;
     font-size: 10pt;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: gray; }
     .credit-item--card {
       margin-left: 5px;
       padding-top: 10px; }
@@ -96,7 +118,8 @@
     margin-left: 20%;
     margin-top: 10%;
     font-size: 10pt;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: gray; }
     .rocket-item--plane {
       margin-left: 10px;
       padding-top: 10px; }
@@ -111,7 +134,8 @@
     margin-left: 20%;
     margin-top: 10%;
     font-size: 10pt;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: gray; }
     .lock-item--segurity {
       margin-left: 20px;
       padding-top: 10px; }
@@ -158,37 +182,146 @@ h4 {
 
 .card {
   width: 250px;
-  margin: 10px; }
+  margin: 10px;
+  margin-left: 22px; }
   .card-img {
     width: 250px;
     height: 300px;
     background-color: gainsboro; }
-
-.span {
-  color: yellow; }
+    .card-img--detail {
+      width: 565px;
+      height: 630px;
+      background-color: gainsboro; }
 
 .card-title {
   font-size: 10pt;
   text-align: center; }
 
 .text-item {
-  color: blue;
-  font-size: 12pt; }
+  color: deepskyblue;
+  font-size: 12pt;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -35px; }
 
 .card-text {
-  font-size: 12pt; }
+  font-size: 10pt;
+  color: gray; }
+  .card-text--item {
+    text-align: center;
+    font-size: 10pt;
+    color: gray; }
 
-.detail {
-  width: 565px;
-  height: 630px;
-  background-color: gainsboro; }
+.btn-detail {
+  background: gainsboro;
+  color: gray; }
+
+.icon-detail {
+  padding-right: 10px; }
+
+.comprar {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 25%;
+  width: 90%; }
+  .comprar-item {
+    background: black; }
+    .comprar-item--cor {
+      width: 100%; }
+    .comprar-item--tamanho {
+      width: 100%; }
+    .comprar-item--compra {
+      width: 100%; }
+
+.number {
+  color: gray;
+  font-size: 10pt; }
+
+.information {
+  margin-left: 35%; }
+
+.rating {
+  float: right;
+  color: yellow; }
+  .rating-item {
+    color: silver; }
+
+.card-cor {
+  width: 350px; }
+
+.square-two {
+  color: gray; }
+
+.square-three {
+  color: silver; }
+
+.add {
+  margin-bottom: 15%; }
+
+.card-frete {
+  width: 350px; }
+  .card-frete-item {
+    font-size: 12pt; }
 
 .car {
   margin-right: 500px;
-  width: 200px; }
+  width: 110px; }
   .car-item {
     position: absolute;
     margin-top: -25px; }
+
+.card-parcela {
+  width: 350px; }
+  .card-parcela--item {
+    margin-left: 5%; }
+
+.play {
+  position: absolute; }
+
+.name {
+  margin-left: 40%; }
+
+.colors {
+  color: black; }
+  .colors-silver {
+    color: silver; }
+
+.colors-aqua {
+  color: aqua; }
+
+.colors-gray {
+  color: gray; }
+
+.colors-pink {
+  color: deeppink; }
+
+.colors-red {
+  color: red; }
+
+.colors-blue {
+  color: royalblue; }
+
+.colors-dark {
+  color: darkblue; }
+
+.colors-yellow {
+  color: yellow; }
+
+.colors-orange {
+  color: orangered; }
+
+.colors-white {
+  color: white; }
+
+.btn-tamanho {
+  border-bottom-color: silver;
+  border-top-color: silver;
+  margin-top: 25px; }
+
+.btn-preco {
+  border-bottom-color: silver;
+  border-top-color: silver;
+  margin-top: 25px; }
 
 .photo {
   width: 2000px;
@@ -198,8 +331,12 @@ h4 {
   text-align: center;
   margin-left: 0; }
 
+.lanc {
+  margin-bottom: 25px; }
+
 .lancamentos {
-  text-align: center; }
+  text-align: center;
+  font-size: 12pt; }
 
 .vendidos {
   text-align: center; }
@@ -209,6 +346,9 @@ h4 {
   .icon-header {
     margin-left: 15%;
     padding-top: 10px; }
+
+.card-cat {
+  margin-bottom: 35px; }
 
 .email {
   padding-left: 40px;
