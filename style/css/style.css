@@ -192,6 +192,8 @@ h4 {
       width: 565px;
       height: 630px;
       background-color: gainsboro; }
+  .card-total {
+    width: 280px; }
 
 .card-title {
   font-size: 10pt;
@@ -203,6 +205,13 @@ h4 {
   position: absolute;
   margin-left: 45%;
   margin-top: -35px; }
+  .text-item--detail {
+    color: deepskyblue;
+    font-size: 12pt;
+    position: absolute;
+    /* margin-left: 80%; */
+    /* margin-top: -35px; */
+    margin-top: -20px; }
 
 .card-text {
   font-size: 10pt;
@@ -237,17 +246,19 @@ h4 {
   color: gray;
   font-size: 10pt; }
 
-.information {
-  margin-left: 35%; }
-
 .rating {
   float: right;
   color: yellow; }
   .rating-item {
     color: silver; }
+    .rating-item--visual {
+      float: right;
+      margin-top: -30px;
+      color: black; }
 
 .card-cor {
-  width: 350px; }
+  width: 500px;
+  border-bottom: 5px solid silver; }
 
 .square-two {
   color: gray; }
@@ -256,10 +267,12 @@ h4 {
   color: silver; }
 
 .add {
-  margin-bottom: 15%; }
+  margin-bottom: 15%;
+  width: 220px; }
 
 .card-frete {
-  width: 350px; }
+  width: 500px;
+  border-bottom: 5px solid silver; }
   .card-frete-item {
     font-size: 12pt; }
 
@@ -271,9 +284,11 @@ h4 {
     margin-top: -25px; }
 
 .card-parcela {
-  width: 350px; }
+  width: 500px;
+  border-bottom: 5px solid silver; }
   .card-parcela--item {
-    margin-left: 5%; }
+    margin-left: 5%;
+    color: gray; }
 
 .play {
   position: absolute; }
@@ -364,7 +379,52 @@ h4 {
   margin-left: 220px;
   margin-top: -38px; }
 
+.product {
+  color: black;
+  font-size: 16pt;
+  line-height: 2; }
+
+.cor-cat {
+  color: silver; }
+
+.card-header {
+  background-color: white; }
+
+.facebook {
+  background-color: darkblue;
+  color: white;
+  width: 20%;
+  font-size: 10pt; }
+
 .star {
   color: yellow; }
+
+.plus {
+  color: red; }
+  .plus-add {
+    float: right; }
+
+.div-cat {
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+.header-cat {
+  background-color: gray;
+  font-size: 10pt;
+  color: white; }
+
+.group {
+  color: gray;
+  font-size: 10pt; }
+  .group-item {
+    color: black;
+    font-size: 10pt;
+    border-bottom: 5px solid silver; }
+
+.btn-lock {
+  margin-top: 10px; }
+
+.detail-info {
+  position: absolute;
+  margin-left: 30%; }
 
 /*# sourceMappingURL=style.css.map */

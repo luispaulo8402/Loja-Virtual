@@ -226,6 +226,9 @@ h4{
             background-color: gainsboro;
         }
     }
+    &-total{
+        width: 280px;
+    }
 }
 
 .card-title{
@@ -239,6 +242,14 @@ h4{
         position: absolute;
         margin-left:45%;
         margin-top: -35px;
+        &--detail{
+            color: deepskyblue;
+            font-size: 12pt;
+            position: absolute; 
+            /* margin-left: 80%; */
+            /* margin-top: -35px; */
+            margin-top: -20px;
+        }
     }
 }
 .card-text{
@@ -276,25 +287,28 @@ h4{
     }
 }
 // detail
-h4{
-
-}
 .number{
     color: $color;
     font-size: $size-p;
 }
 .information{
-    margin-left: 35%;
+   // margin-left: 35%;
 }
 .rating{
     float: right;
     color: yellow;
     &-item{
      color: silver;
+     &--visual{
+            float: right;
+            margin-top: -30px;      
+            color: black;  
+        }
     }
 }
 .card-cor{
-    width: 350px;
+    width: 500px;
+    border-bottom: 5px solid silver;
 }
 .square-two{
     color: $color;    
@@ -305,9 +319,11 @@ h4{
 }
 .add{
     margin-bottom: 15%;
+    width: 220px;
 }
 .card-frete{
-    width: 350px;
+    width: 500px;
+    border-bottom: 5px solid silver;
     &-item{
         font-size: 12pt;
     }
@@ -322,9 +338,11 @@ h4{
     }
 }
 .card-parcela{
-    width: 350px;
+    width: 500px;
+    border-bottom: 5px solid silver;
     &--item{
         margin-left: 5%;
+        color: gray;
 
     }
 }
@@ -439,11 +457,25 @@ h4{
     margin-top: -38px;
 }
 
+.product{
+    color: black;
+    font-size: 16pt;
+    line-height: 2;
+}
 
+.cor-cat{
+    color: silver;
+}
+.card-header{
+    background-color: white;
+}
 
-
-
-
+.facebook{
+    background-color: darkblue;
+    color: white;
+    width: 20%;
+    font-size: 10pt; 
+}
 .star{
     color: yellow;
     &-item{
@@ -451,8 +483,34 @@ h4{
     }
 }
 
-.adquirir{
-    //position: relative;
+.plus{
+    color: red;
+    &-add{
+        float: right;
+    }
 }
+.div-cat{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header-cat{
+    background-color: gray;
+    font-size: 10pt;
+    color: white;
+}
+.group{
+    color: gray;
+    font-size: 10pt;
+    &-item{
+        color: black;
+        font-size: 10pt;
+        border-bottom: 5px solid silver;
 
-// Detalhes
+    }
+}
+.btn-lock{
+    margin-top: 10px;
+}
+.detail-info{
+    position: absolute;
+    margin-left: 30%;
+}
