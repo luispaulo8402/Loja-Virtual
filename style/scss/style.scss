@@ -36,7 +36,9 @@ $size-p: 10pt;
     margin-top: $icon-top;
     float: right;
     padding-left: 10px;
-    margin-right: 25%;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
     color: $color;
     font-size: $size-p;
 
@@ -67,9 +69,21 @@ $size-p: 10pt;
         margin-right: 5%;
     }
 }
+.my-car{
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 25px;
+    padding-left: 40px;
+}
 #navbarDropdown{
     color: $color-b;
     font-size: 12px;
+}
+.jubo{
+    color: silver;
+    font-size: 15pt;
+    margin-bottom: 15%;
+    margin-left: 15%;
 }
 #navbarDropdown-one{
     color: $color-b;
@@ -79,8 +93,7 @@ $size-p: 10pt;
 #dropdownMenu2{
     border-bottom-color: silver;
     border-top-color: silver;
-    width: 80%;
-    margin-bottom: 20px;
+    color: silver;
 }
 .page-link{
     color: black;
@@ -170,6 +183,7 @@ $size-p: 10pt;
 }
 .line-purchase{
     margin-top: 20px;
+    margin-bottom: 5%;
 }
 .copy{
     font-size:  $size-p;
@@ -206,16 +220,27 @@ $size-p: 10pt;
 .nav-link{
     color: $color;
     font-size: $size-p;
+    &--promo{
+        line-height: 2;
+    }
 }
 h4{
     color: $color-b;
     font-size: $size-p;
+    margin-left: 15px;
 }
 
+.sac{
+    line-height: 4;
+    font-size: 12pt;
+}
 .card{
     width: 250px;
     margin: 10px;
     margin-left: 22px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
     &-img{
         width: 250px;
         height: 300px;
@@ -230,7 +255,10 @@ h4{
         width: 280px;
     }
 }
-
+.principal{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 251px;
+}
 .card-title{
     font-size: $size-p;
     text-align: center;
@@ -263,7 +291,8 @@ h4{
 }
 .btn-detail{
     background: gainsboro;
-    color: gray;    
+    color: gray; 
+    float: right;   
 }
 .icon-detail{
     padding-right: 10px;
@@ -271,7 +300,7 @@ h4{
 .comprar{
     position: absolute;
     margin-left: 5%;
-    margin-top: 25%;
+    margin-top: 40%;
     width: 90%;
     &-item{
         background: black;
@@ -334,7 +363,9 @@ h4{
     width: 110px;
     &-item{
         position: absolute;
-        margin-top: -25px;
+        margin-top: -27px;
+        margin-left: 25%;
+        padding-left: 10px;
     }
 }
 .card-parcela{
@@ -420,6 +451,10 @@ h4{
 .cont{
     text-align: center;
     margin-left: 0;
+    &-item{
+        color: gray;
+        margin-left: 20%;
+    }
 }
 .lanc{
     margin-bottom: 25px;
@@ -445,15 +480,16 @@ h4{
 .email{
     padding-left: 40px;
     width: 210px;
+    margin-left: 15px;
 }
 .icon-email{
     position: absolute;
     margin-top: -27px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 .create{
     position: absolute;
-    margin-left: 220px;
+    margin-left: 235px;
     margin-top: -38px;
 }
 
@@ -513,4 +549,11 @@ h4{
 .detail-info{
     position: absolute;
     margin-left: 30%;
+}
+.face{
+    margin-left: 15px;
+    color: darkblue;
+}
+.news{
+    margin-top: 25px;
 }
