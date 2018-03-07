@@ -217,7 +217,9 @@ h4 {
       height: 630px;
       background-color: gainsboro; }
   .card-total {
-    width: 280px; }
+    width: 280px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver; }
 
 .principal {
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -237,8 +239,6 @@ h4 {
     color: deepskyblue;
     font-size: 12pt;
     position: absolute;
-    /* margin-left: 80%; */
-    /* margin-top: -35px; */
     margin-top: -20px; }
 
 .card-text {
@@ -273,7 +273,8 @@ h4 {
 
 .number {
   color: gray;
-  font-size: 10pt; }
+  font-size: 10pt;
+  margin-left: 20px; }
 
 .rating {
   float: right;
@@ -287,7 +288,9 @@ h4 {
 
 .card-cor {
   width: 500px;
-  border-bottom: 5px solid silver; }
+  border-bottom: 5px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver; }
 
 .square-two {
   color: gray; }
@@ -296,14 +299,18 @@ h4 {
   color: silver; }
 
 .add {
-  margin-bottom: 15%;
+  margin: 15px;
   width: 220px; }
 
 .card-frete {
   width: 500px;
-  border-bottom: 5px solid silver; }
+  border-bottom: 5px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver; }
   .card-frete-item {
-    font-size: 12pt; }
+    font-size: 12pt;
+    color: gray;
+    margin-right: 65%; }
 
 .car {
   margin-right: 500px;
@@ -316,10 +323,13 @@ h4 {
 
 .card-parcela {
   width: 500px;
-  border-bottom: 5px solid silver; }
+  border-bottom: 5px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver; }
   .card-parcela--item {
     margin-left: 5%;
-    color: gray; }
+    color: gray;
+    line-height: 2; }
 
 .play {
   position: absolute; }
@@ -362,12 +372,18 @@ h4 {
 .btn-tamanho {
   border-bottom-color: silver;
   border-top-color: silver;
-  margin-top: 25px; }
+  margin-top: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: white; }
 
 .btn-preco {
   border-bottom-color: silver;
   border-top-color: silver;
-  margin-top: 25px; }
+  margin-top: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: white; }
 
 .photo {
   width: 2000px;
@@ -382,6 +398,8 @@ h4 {
 
 .lanc {
   margin-bottom: 25px; }
+  .lanc-item {
+    margin-top: 10%; }
 
 .lancamentos {
   text-align: center;
@@ -420,10 +438,11 @@ h4 {
   line-height: 2; }
 
 .cor-cat {
-  color: silver; }
+  color: gray; }
 
 .card-header {
-  background-color: white; }
+  background-color: white;
+  padding-bottom: 20px; }
 
 .facebook {
   background-color: darkblue;
@@ -436,8 +455,10 @@ h4 {
 
 .plus {
   color: red; }
-  .plus-add {
-    float: right; }
+
+.plus-mais {
+  float: right;
+  margin-top: 15%; }
 
 .div-cat {
   border-right: 1px solid rgba(0, 0, 0, 0.1); }
@@ -468,5 +489,55 @@ h4 {
 
 .news {
   margin-top: 25px; }
+
+.input-plus {
+  width: 170px; }
+
+.plus-add {
+  background: #28a745;
+  color: white; }
+
+.input-control {
+  padding-left: 20px;
+  background: white; }
+
+.calc {
+  width: 120px; }
+
+.list {
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  border-bottom: 5px solid black;
+  margin-bottom: 40px; }
+  .list-item {
+    line-height: 3; }
+
+.home {
+  text-align: center;
+  margin: 15px; }
+
+.group-forms {
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+.drop-colors {
+  width: 100%;
+  margin-bottom: 20px;
+  background: white; }
+
+.home-detail {
+  margin: 20px; }
+
+.tab {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+
+#nav-home {
+  margin-top: -40px; }
+
+.main {
+  margin-top: 10%; }
+  .main-title {
+    text-align: center;
+    margin-bottom: 15%; }
 
 /*# sourceMappingURL=style.css.map */

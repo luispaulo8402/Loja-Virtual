@@ -92,8 +92,8 @@
                 </ul>
             </div>
         </nav>
-        <h5>Home > categoria</h5>
-    <div class="container">
+        <h6 class="home-detail">Home > categoria</h6>
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <div class="card text-white">
@@ -114,23 +114,25 @@
                             <i class="fa fa-square fa-2x square-two" aria-hidden="true"></i>
                             <i class="fa fa-square fa-2x square-three" aria-hidden="true"></i> 
                         </div>
-                        <div class="card-body text-dark">
-                            <a class="btn btn-secondary" href="#">
-                                <i class="fa fa-minus" aria-hidden="true"></i>
-                            </a>
-                             <input type="text" placeholder="1">                                                                                            <a class="btn btn-success" href="#">
-                            <i class="fa fa-plus" aria-hidden="true"></i></a>
+                        <div class="card-body text-dark input-plus">
+                            <div class="input-group margin-bottom-sm">
+                                <span class="input-group-addon"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                <input class="form-control input-control" type="text" placeholder="1" disabled><span class="input-group-addon plus-add"><i class="fa fa-plus" aria-hidden="true"></i></a></span>
+                            </div>
                         </div>
                         <a class="btn btn-success add" href="#">Adicionar ao carrinho</a>
                     </div>
                     <div class="card mb-3 card-frete">
                         <div class="card-body text-dark">
                             <h5 class="card-title card-frete-item">Calcular Frete e prazo</h5>
-                            <input type="password" class="form-control car" id="inputPassword2" placeholder="000000.000">
-                            <a class="btn btn-success" href="#">Calcular</a>
-                            <a href="path/to/shopping/cart" class="btn btn-success" aria-label="View 3 items in your shopping cart">
-                                <i class="fa fa-truck" aria-hidden="true"></i>
-                            </a>
+                            <div class="card-body text-dark input-plus">
+                                <div class="input-group margin-bottom-sm">
+                                    <input class="form-control  calc" type="text" placeholder="00000.000"><a class="btn btn-secondary" href="#">Calcular</a>
+                                    <a href="path/to/shopping/cart" class="btn btn-success" aria-label="View 3 items in your shopping cart">
+                                        <i class="fa fa-truck" aria-hidden="true"></i>
+                                    </a>                               
+                                </div>
+                            </div>                           
                         </div>
                     </div>
                     <div class="card mb-3 card-parcela">
@@ -153,24 +155,28 @@
             </div>
         </div>
      </div>
-    <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+     <div class="container">
+        <nav class="tab">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">INFORMAÇÕES BÁSICAS</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">CARACTERISTICAS DO PRODUTO</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">AVALIAÇÕES</a>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Tupis duis amet, elementhabitasse vut nascetur sagitis
+            placerat
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"></div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"></div>
         </div>
-    </nav>
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">okkkkkkkkkk</div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">tendiiii</div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Blzzzzzzzzzzzzzzzz</div>
     </div>
-    <div class="row">
+    <div class="row main">
         <div class="col">
             <hr>
         </div>
         <div class="col">
-            <h5>Compre Junto</h5>
+            <h5 class="main-title">Compre Junto</h5>
         </div>
         <div class="col">
             <hr>
@@ -187,10 +193,10 @@
                     <img class="card-img-top card-img" src="" alt="">
                 </div>
                 <hr>
+                <i class="fa fa-plus-circle fa-3x plus-mais" aria-hidden="true"></i>
                 <div class="card">
                     <img class="card-img-top card-img" src="" alt="">
                 </div>                       
-                <i class="fa fa-plus-circle fa-3x plus-add" aria-hidden="true"></i>
             </div>
             <div class="col-sm-3">
                 <div class="card card-total">
@@ -208,8 +214,19 @@
             </div>
         </div>
     </div>
-    <hr>
-    <h5>Quem comprou, comprou também</h5>
+    <div class="container lanc">
+            <div class="row lanc-item">
+                <div class="col-sm">
+                    <hr>
+                </div>
+                <div class="col-sm">
+                    <h3 class="lancamentos">QUEM COMPROU, COMPROU TAMBÉM</h3>
+                </div>
+                <div class="col-sm">
+                    <hr>
+                </div>
+            </div>
+        </div>
     <div class="container">
         <div class="row mb-5">
             <div class="card">
@@ -295,9 +312,19 @@
             </div>
         </div>
     </div>
-    <hr>
-    <h5>Produtos Relacionados</h5>        
-    <hr>      
+    <div class="container lanc">
+            <div class="row">
+                <div class="col-sm">
+                    <hr>
+                </div>
+                <div class="col-sm">
+                    <h3 class="lancamentos">PRODUTOS RELACIONADOS</h3>
+                </div>
+                <div class="col-sm">
+                    <hr>
+                </div>
+            </div>
+        </div>        
      <div class="container">
         <div class="row mb-5">
             <div class="card">

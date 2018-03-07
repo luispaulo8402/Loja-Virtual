@@ -253,6 +253,8 @@ h4{
     }
     &-total{
         width: 280px;
+        border-left: 1px solid silver;
+        border-right: 1px solid silver;
     }
 }
 .principal{
@@ -274,8 +276,6 @@ h4{
             color: deepskyblue;
             font-size: 12pt;
             position: absolute; 
-            /* margin-left: 80%; */
-            /* margin-top: -35px; */
             margin-top: -20px;
         }
     }
@@ -319,6 +319,7 @@ h4{
 .number{
     color: $color;
     font-size: $size-p;
+    margin-left: 20px;
 }
 .information{
    // margin-left: 35%;
@@ -338,7 +339,10 @@ h4{
 .card-cor{
     width: 500px;
     border-bottom: 5px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
 }
+
 .square-two{
     color: $color;    
 }
@@ -347,14 +351,18 @@ h4{
 
 }
 .add{
-    margin-bottom: 15%;
+    margin: 15px;
     width: 220px;
 }
 .card-frete{
     width: 500px;
     border-bottom: 5px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
     &-item{
         font-size: 12pt;
+        color: gray;
+        margin-right: 65%;
     }
 }
 
@@ -371,9 +379,12 @@ h4{
 .card-parcela{
     width: 500px;
     border-bottom: 5px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
     &--item{
         margin-left: 5%;
         color: gray;
+        line-height: 2;
 
     }
 }
@@ -438,11 +449,18 @@ h4{
     border-bottom-color: silver;
     border-top-color: silver;
     margin-top: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: white;
 }
 .btn-preco{
     border-bottom-color: silver;
     border-top-color: silver;
     margin-top: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: white;
+
 }
 .photo{
     width: 2000px;
@@ -458,6 +476,9 @@ h4{
 }
 .lanc{
     margin-bottom: 25px;
+    &-item{
+        margin-top: 10%;
+    }
 }
 .lancamentos{
     text-align: center;
@@ -500,10 +521,11 @@ h4{
 }
 
 .cor-cat{
-    color: silver;
+    color: gray;
 }
 .card-header{
     background-color: white;
+    padding-bottom: 20px;
 }
 
 .facebook{
@@ -521,10 +543,10 @@ h4{
 
 .plus{
     color: red;
-    &-add{
-        float: right;
-    }
 }
+.plus-mais{
+    float: right;
+    margin-top: 15%}
 .div-cat{
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -556,4 +578,58 @@ h4{
 }
 .news{
     margin-top: 25px;
+}
+.input-plus{
+    width: 170px;
+}
+.plus-add   {
+    background: #28a745;
+    color: white;
+}
+.input-control{
+    padding-left: 20px;
+    background: white;
+}
+.calc{
+    width: 120px;
+}
+.list{
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 5px solid black;
+    margin-bottom: 40px;  
+    &-item{
+        line-height: 3;
+    }
+}
+.home{
+    text-align: center;
+    margin: 15px;
+}
+.group-forms{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+.drop-colors{
+    width: 100%;
+    margin-bottom: 20px;
+    background: white;
+
+}
+.home-detail{
+    margin: 20px;
+}
+
+.tab{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#nav-home{
+    margin-top: -40px;
+}
+.main{
+    margin-top: 10%;
+    &-title{
+        text-align: center;
+        margin-bottom: 15%;
+    }
 }
